@@ -1,32 +1,15 @@
 
 
-```
-//This program is written in Python
+```python
+# Program to print the sum of two numbers
 
-# This program prints the numbers from 1 to 10
+# Declare two variables
+num1 = 10
+num2 = 15
 
-# Define a variable to store the start value
-start = 1
+# Calculate the sum
+sum = num1 + num2
 
-# Define a variable to store the end value
-end = 10
-
-# Use a while loop to iterate over numbers
-while start <= end:
-    # Print the current number
-    print(start)
-    # Increment the start value
-    start += 1
-
-# Output
-# 1
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
-# 10
+# Print the sum
+print("Sum of {0} and {1} is {2}".format(num1, num2, sum))
 ```
