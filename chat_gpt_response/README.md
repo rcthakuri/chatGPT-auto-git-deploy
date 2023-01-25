@@ -1,19 +1,20 @@
 
 
-// Program to find the factorial of a number in Python
-
-# Function to calculate the factorial of a number
-def factorial(n):
-    # Initializing the factorial variable to 1
-    fact = 1
-    # Looping over the number and calculating the factorial
-    for i in range(1, n+1):
-        fact *= i
-    # Returning the factorial of the number
-    return fact
-
-# Taking the input from the user
-num = int(input("Enter a number: "))
-
-# Calling the function and printing the result
-print("The factorial of", num, "is", factorial(num))
+```java
+//This program prints out the first 10 numbers of the Fibonacci sequence
+public class Fibonacci {
+    public static void main(String[] args) {
+        //Declare and initialize the first two numbers of the sequence
+        int n1 = 0, n2 = 1, n3;
+        System.out.print(n1 + " " + n2); //print out the first two numbers
+        
+        //Loop through and calculate the next 8 numbers
+        for (int i = 2; i < 10; i++) {
+            n3 = n1 + n2;
+            System.out.print(" " + n3);
+            n1 = n2;
+            n2 = n3;
+        }
+    }
+}
+```
