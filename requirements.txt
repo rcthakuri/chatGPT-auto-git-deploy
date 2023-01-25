@@ -1,0 +1,4 @@
+openai==0.26.1
+GitPython==3.1.30
+python-dotenv==0.21.0
+
