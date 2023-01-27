@@ -1,14 +1,13 @@
 
 
-// This program is written in Python and is used to calculate the square root of a number
+# Python Program to Print Hello World 
 
-# Program to calculate the square root of a number
+# Defining the main function 
+def main(): 
+	
+	# Printing Hello World 
+	print("Hello World") 
 
-# Taking the input from the user
-num = float(input("Enter a number: "))
-
-# Calculating the square root
-sqrt = num ** 0.5
-
-# Printing the output
-print("The square root of", num, "is", sqrt)
+# Calling the main function 
+if __name__=="__main__": 
+	main()
