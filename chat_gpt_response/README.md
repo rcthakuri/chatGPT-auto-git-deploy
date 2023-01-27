@@ -1,23 +1,14 @@
 
 
-# Program to calculate the area of a triangle in Python
+// This program is written in Python and is used to calculate the square root of a number
 
-## Program
+# Program to calculate the square root of a number
 
-```
-# This program calculates the area of a triangle
+# Taking the input from the user
+num = float(input("Enter a number: "))
 
-# Ask the user to input the dimensions of the triangle
-base = float(input('Enter the base of the triangle: '))
-height = float(input('Enter the height of the triangle: '))
+# Calculating the square root
+sqrt = num ** 0.5
 
-# Calculate the area of the triangle
-area = 0.5 * base * height
-
-# Print the result
-print('The area of the triangle is %0.2f' %area)
-```
-
-## Explanation
-
-This program calculates the area of a triangle by asking the user to input the base and height of the triangle. The area of the triangle is then calculated using the formula 0.5 * base * height. The result is then printed to the user.
+# Printing the output
+print("The square root of", num, "is", sqrt)
