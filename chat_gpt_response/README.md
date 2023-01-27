@@ -1,27 +1,23 @@
 
 
-//This program is written in Java
+# Program to calculate the area of a triangle in Python
 
-//This program allows the user to input a number and then prints out the number multiplied by 10
+## Program
 
-import java.util.Scanner;
+```
+# This program calculates the area of a triangle
 
-public class MultiplyByTen {
-    public static void main(String[] args) {
-        
-        //Create a Scanner object to read user input
-        Scanner scanner = new Scanner(System.in);
-        
-        //Prompt the user to enter a number
-        System.out.print("Enter a number: ");
-        
-        //Read the user input
-        int number = scanner.nextInt();
-        
-        //Multiply the number by 10
-        int result = number * 10;
-        
-        //Print out the result
-        System.out.println("The result is " + result);
-    }
-}
+# Ask the user to input the dimensions of the triangle
+base = float(input('Enter the base of the triangle: '))
+height = float(input('Enter the height of the triangle: '))
+
+# Calculate the area of the triangle
+area = 0.5 * base * height
+
+# Print the result
+print('The area of the triangle is %0.2f' %area)
+```
+
+## Explanation
+
+This program calculates the area of a triangle by asking the user to input the base and height of the triangle. The area of the triangle is then calculated using the formula 0.5 * base * height. The result is then printed to the user.
