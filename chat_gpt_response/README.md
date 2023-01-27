@@ -1,13 +1,16 @@
 
 
-# Python Program to Print Hello World 
+```Python
+# Program to print the sum of two numbers
 
-# Defining the main function 
-def main(): 
-	
-	# Printing Hello World 
-	print("Hello World") 
+# Assigning values to two variables
+num1 = 5
+num2 = 10
 
-# Calling the main function 
-if __name__=="__main__": 
-	main()
+# Calculating the sum of two numbers
+sum = num1 + num2
+
+# Printing the sum
+print("The sum of {0} and {1} is {2}".format(num1, num2, sum))
+
+```
