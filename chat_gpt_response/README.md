@@ -1,16 +1,15 @@
 
 
-```Python
-# Program to print the sum of two numbers
+```javascript
+// This program calculates the sum of two given numbers
 
-# Assigning values to two variables
-num1 = 5
-num2 = 10
+// Declare two variables and assign them with two given numbers
+let num1 = 5;
+let num2 = 10;
 
-# Calculating the sum of two numbers
-sum = num1 + num2
+// Calculate the sum of two numbers and store it in a variable
+let result = num1 + num2;
 
-# Printing the sum
-print("The sum of {0} and {1} is {2}".format(num1, num2, sum))
-
+// Print the result to the console
+console.log(result);
 ```
