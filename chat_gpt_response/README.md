@@ -1,15 +1,26 @@
 
 
-```javascript
-// This program calculates the sum of two given numbers
+//This program is written in C language and it calculates the sum of two numbers
 
-// Declare two variables and assign them with two given numbers
-let num1 = 5;
-let num2 = 10;
+#include<stdio.h>
 
-// Calculate the sum of two numbers and store it in a variable
-let result = num1 + num2;
+int main()
+{
+    //Declaring two variables to store the numbers
+    int num1, num2;
+    
+    //Taking input from the user
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
 
-// Print the result to the console
-console.log(result);
-```
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+    //Calculating the sum of the two numbers
+    int sum = num1 + num2;
+    
+    //Printing the sum
+    printf("The sum of the two numbers is %d", sum);
+
+    return 0;
+}
